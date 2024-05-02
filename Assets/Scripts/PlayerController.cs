@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 6.0f;
     private CharacterController charController;
     public float gravity = -9.8f;
-    public float mouseSensevity = 5.0f;
+    
 
     void Start()
     {
