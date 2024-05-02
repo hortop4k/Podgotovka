@@ -39,6 +39,7 @@ public  class Swipes : MonoBehaviour
         {
             float forceMagnitude = Mathf.Clamp(direction.magnitude, 0.0f, 15.0f);
             rb.AddForce(Camera.main.transform.TransformDirection(direction.normalized) * forceMagnitude, ForceMode.Impulse);
+            
         }
 
     }
