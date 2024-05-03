@@ -14,7 +14,7 @@ public class MouseLook : MonoBehaviour
     }
     public RotationAxes axes = RotationAxes.MouseXandY;
     public float SensevityHor = 9.0f;
-    public float SensevityVert = -9.0f;
+    public float SensevityVert = 9.0f;
     public float minimumVert = -45.0f;
     public float maximumVert = 45.0f;
     private float verticalRot = 0;
@@ -42,7 +42,7 @@ public class MouseLook : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             SensevityHor = 9.0f;
-            SensevityVert = -9.0f;
+            SensevityVert = 9.0f;
             Cursor.visible = false;
         }
         //Горизонтальный
